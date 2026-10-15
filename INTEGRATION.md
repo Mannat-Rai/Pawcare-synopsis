@@ -1,0 +1,1 @@
+Mount `booking.routes.js` at `/api/bookings` and ensure MongoDB is connected. The GET route is unprotected for development only; add authentication and access controls before production. Service links use `/bookings` as a placeholder.
