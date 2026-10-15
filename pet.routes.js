@@ -1,0 +1,1 @@
+const express=require("express");const controller=require("./pet.controller");const router=express.Router();router.get("/",controller.listPets);router.get("/:id",controller.getPet);router.post("/",controller.createPet);router.put("/:id",controller.updatePet);router.delete("/:id",controller.deletePet);module.exports=router;
