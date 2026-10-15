@@ -1,0 +1,1 @@
+import {Router} from 'express';import {listPets,getPet} from './pet.controller.js';const r=Router();r.get('/',listPets);r.get('/:id',getPet);export default r;

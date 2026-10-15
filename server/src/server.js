@@ -1,0 +1,1 @@
+import 'dotenv/config';import app from './app.js';import {connectDatabase} from './config/database.js';const port=process.env.PORT||5000;try{await connectDatabase()}catch(e){console.warn('MongoDB unavailable; some demo routes can still run:',e.message)}app.listen(port,()=>console.log(`PawCare API running at http://localhost:${port}`));

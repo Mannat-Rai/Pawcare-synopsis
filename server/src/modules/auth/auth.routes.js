@@ -1,0 +1,1 @@
+import {Router} from 'express';const r=Router();r.post('/register',(_q,s)=>s.status(501).json({message:'TODO: implement registration securely'}));r.post('/login',(_q,s)=>s.status(501).json({message:'TODO: implement login securely'}));export default r;
