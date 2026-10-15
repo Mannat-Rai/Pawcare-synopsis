@@ -1,0 +1,1 @@
+Mount `pet.routes.js` at `/api/pets`. Ensure MongoDB is connected and body parsing is enabled. The sample write routes are open for local development; add authentication/authorization before deployment. `PetCard.jsx` expects a `pet` prop.
